@@ -1,0 +1,47 @@
+.home-section {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.home-section .img-wrapper {
+    flex-grow: 1;
+    flex-direction: row;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.home-section .me-image {
+    background-image: url(images/me.png);
+    flex-grow: 1;
+    max-height: 40vh;
+    min-width: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.home-section .home-text {
+    flex-grow: 1;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.home-section .welcome {
+    font-weight: 300;
+    font-size: 2em;
+    margin-bottom: 1rem;
+    margin-top: 0;
+    text-align: center;
+}
+
+.home-section .subtitle {
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    text-align: center;
+}
