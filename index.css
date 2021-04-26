@@ -18,8 +18,8 @@
 .home-section .me-image {
     background-image: url(images/me.png);
     flex-grow: 1;
-    max-height: 40vh;
-    min-width: none;
+    min-height: 30vh;
+    min-width: 10vh;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center top;
@@ -28,13 +28,14 @@
 .home-section .home-text {
     flex-grow: 1;
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
 }
 
 .home-section .welcome {
     font-weight: 300;
     font-size: 2em;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     margin-top: 0;
     text-align: center;
 }
@@ -42,6 +43,17 @@
 .home-section .subtitle {
     font-weight: 400;
     font-size: 1.5rem;
-    margin-bottom: 0;
+    margin-bottom: 1rem;
     text-align: center;
+}
+
+.home-section .icon-wrapper {
+    flex-grow: 1;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0%;
+    margin-bottom: 10%;
+    
 }
